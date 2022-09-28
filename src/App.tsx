@@ -1,7 +1,12 @@
-import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
+import { Container } from "react-bootstrap";
 
 function App() {
-    return <h1>Welcome</h1>;
+    return (
+        <Container>
+            <Routes></Routes>
+        </Container>
+    );
 }
 
 export default App;
